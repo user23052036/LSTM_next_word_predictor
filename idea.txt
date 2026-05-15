@@ -1,0 +1,22 @@
+Converting text generation into a supervised learning problem using a small dataset
+
+hi --> my
+hi my --> name
+hi my name --> is
+hi my name is --> Souvik
+
+-------------------------------------------
+
+the --> sky
+the sky --> is
+the sky is --> blue
+the sky is blue --> and
+the sky is blue and --> the
+the sky is blue and the --> grass
+the sky is blue and the grass --> is
+the sky is blue and the grass is --> green
+the sky is blue and the grass is green
+
+----------------------------------------------
+
+we will here use LSTM (LTM + RNN) to work on next word prediction
