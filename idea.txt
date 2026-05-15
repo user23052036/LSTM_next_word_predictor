@@ -1,5 +1,7 @@
 Converting text generation into a supervised learning problem using a small dataset
 
+DummyDataset ---> supervised(X and Y) ---> multiclass classification problem
+
 hi --> my
 hi my --> name
 hi my name --> is
